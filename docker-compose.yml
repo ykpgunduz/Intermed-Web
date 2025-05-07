@@ -1,0 +1,42 @@
+services:
+  app:
+    container_name: intermed-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: intermed
+    ports:
+      - "9940:80"
+    volumes:
+      - .:/var/www
+    depends_on:
+      - db
+    networks:
+      - intermed-network
+    environment:
+      - LC_ALL=tr_TR.UTF-8
+      - LANG=tr_TR.UTF-8
+
+  db:
+    image: mysql:8.0
+    container_name: intermed-db
+    volumes:
+      - mysql-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: intermed-db
+      MYSQL_USER: laravel_user
+      MYSQL_PASSWORD: root
+      MYSQL_CHARSET: utf8mb4
+      MYSQL_COLLATION: utf8mb4_unicode_ci
+    ports:
+      - "3344:3306"
+    networks:
+      - intermed-network
+
+networks:
+  intermed-network:
+
+volumes:
+  mysql-data:
