@@ -31,7 +31,7 @@ services:
       MYSQL_CHARSET: utf8mb4
       MYSQL_COLLATION: utf8mb4_unicode_ci
     ports:
-      - "3344:3306"
+      - "3994:3306"
     networks:
       - intermed-network
 
