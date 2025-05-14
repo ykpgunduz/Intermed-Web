@@ -30,19 +30,23 @@ class PostResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('image')
-                    ->link()
+                    ->label('Görsel')
                     ->required()
                     ->maxLength(255),
                 Forms\Components\TextInput::make('title')
+                    ->label('Başlık')
                     ->required()
                     ->maxLength(255),
                 Forms\Components\TextInput::make('slug')
+                    ->label('Slug')
                     ->required()
                     ->maxLength(255),
                 Forms\Components\Textarea::make('content')
+                    ->label('İçerik')
                     ->required(),
                 Forms\Components\Select::make('category_id')
                     ->relationship('category', 'name')
+                    ->label('Kategori')
                     ->required(),
             ]);
     }

@@ -30,6 +30,7 @@ class CategoryResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('name')
+                    ->label('Kategori Adı')
                     ->required()
                     ->maxLength(255),
             ]);

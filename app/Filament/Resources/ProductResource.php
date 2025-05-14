@@ -30,27 +30,34 @@ class ProductResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('name')
+                    ->label('Ürün Adı')
                     ->required()
                     ->maxLength(255),
                 Forms\Components\TextInput::make('slug')
+                    ->label('Slug')
                     ->required()
                     ->maxLength(255),
                 Forms\Components\TextInput::make('price')
-                    ->required()
-                    ->numeric(),
+                    ->label('Fiyat')
+                    ->numeric()
+                    ->prefix('₺'),
                 Forms\Components\Select::make('category_id')
+                    ->label('Kategori')
                     ->relationship('category', 'name')
                     ->required(),
                 Forms\Components\Select::make('brand_id')
+                    ->label('Marka')
                     ->relationship('brand', 'name')
                     ->required(),
                 Forms\Components\Select::make('status')
+                    ->label('Durum')
                     ->options([
                         'active' => 'Aktif',
                         'inactive' => 'Pasif',
                     ])
                     ->required(),
                 Forms\Components\Textarea::make('description')
+                    ->label('Açıklama')
                     ->required(),
             ]);
     }
