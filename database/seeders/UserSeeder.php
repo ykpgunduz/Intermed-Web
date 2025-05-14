@@ -17,7 +17,7 @@ class UserSeeder extends Seeder
         User::create([
             'name' => 'Admin',
             'email' => 'admin@intermedms.com',
-            'password' => Hash::make('asd'),
+            'password' => Hash::make('admin'),
         ]);
     }
 }
