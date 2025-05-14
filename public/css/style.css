@@ -4355,3 +4355,61 @@ body{
 /*==========================
 	End Contact Page CSS
 ============================*/
+
+/* Blog Pagination Styles */
+.pagination-area {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    justify-content: center;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    position: relative;
+    display: block;
+    padding: 15px 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #1A76D1;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.pagination .page-link:hover {
+    background-color: #1A76D1;
+    border-color: #1A76D1;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #1A76D1;
+    border-color: #1A76D1;
+    color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #e9ecef;
+    border-color: #ddd;
+}
+
+@media (max-width: 768px) {
+    .pagination .page-link {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}

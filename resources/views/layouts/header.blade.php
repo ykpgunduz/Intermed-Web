@@ -46,24 +46,34 @@
                         <div class="main-menu">
                             <nav class="navigation">
                                 <ul class="nav menu">
-                                    <li class="active"><a href="{{ route('home') }}">Anasayfa </a></li>
-                                    <li><a href="{{ route('about') }}">Hakkımızda </a></li>
-                                    <li><a href="{{ route('services') }}">Servisler </a></li>
-                                    <li><a href="{{ route('products') }}">Ürünler <i class="icofont-rounded-down"></i></a>
+                                    <li class="{{ Route::currentRouteName() == 'home' ? 'active' : '' }}">
+                                        <a href="{{ route('home') }}">Anasayfa</a>
+                                    </li>
+                                    <li class="{{ Route::currentRouteName() == 'about' ? 'active' : '' }}">
+                                        <a href="{{ route('about') }}">Hakkımızda</a>
+                                    </li>
+                                    <li class="{{ Route::currentRouteName() == 'services' ? 'active' : '' }}">
+                                        <a href="{{ route('services') }}">Servisler</a>
+                                    </li>
+                                    <li class="{{ Route::currentRouteName() == 'products' ? 'active' : '' }}">
+                                        <a href="{{ route('products') }}">Ürünler <i class="icofont-rounded-down"></i></a>
                                         <ul class="dropdown">
                                             <li><a href="blog-single.html">MR Cihazları</a></li>
                                             <li><a href="blog-single.html">Röntgen Cihazları</a></li>
                                             <li><a href="blog-single.html">Ultrason Cihazları</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Blogs <i class="icofont-rounded-down"></i></a>
+                                    <li class="{{ Route::currentRouteName() == 'blogs' ? 'active' : '' }}">
+                                        <a href="{{ route('blogs') }}">Blogs <i class="icofont-rounded-down"></i></a>
                                         <ul class="dropdown">
                                             <li><a href="blog-single.html">MR Makinesi Nasıl Çalışır?</a></li>
                                             <li><a href="blog-single.html">Röntgen Nasıl Çalışır?</a></li>
                                             <li><a href="blog-single.html">Ultrason Nasıl Çalışır?</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{ route('contact') }}">İletişim</a></li>
+                                    <li class="{{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">
+                                        <a href="{{ route('contact') }}">İletişim</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>

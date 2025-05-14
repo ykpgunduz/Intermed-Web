@@ -8,4 +8,4 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/services', [HomeController::class, 'services'])->name('services');
 Route::get('/products', [HomeController::class, 'products'])->name('products');
-Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
+Route::get('/blogs', [HomeController::class, 'blogs'])->name('blogs');
