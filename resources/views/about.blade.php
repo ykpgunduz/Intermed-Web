@@ -7,12 +7,8 @@
         <div class="bread-inner">
             <div class="row">
                 <div class="col-12">
-                    <h2>Hakkımızda</h2>
-                    <ul class="bread-list">
-                        <li><a href="{{ url('/') }}">Ana Sayfa</a></li>
-                        <li><i class="icofont-simple-right"></i></li>
-                        <li class="active">Hakkımızda</li>
-                    </ul>
+                    <h2 style="color: #fff;">Hakkımızda</h2>
+                    <p style="color: #fff; margin: 20px auto 0; max-width: 800px;">30 yıllık deneyimimizle medikal görüntüleme sistemleri alanında Türkiye'nin lider çözüm ortağıyız. Kalite ve güvenilirlik ilkelerimizle sektöre yön veriyoruz.</p>
                 </div>
             </div>
         </div>

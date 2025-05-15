@@ -9,12 +9,8 @@
         <div class="bread-inner">
             <div class="row">
                 <div class="col-12">
-                    <h2>İletişim</h2>
-                    <ul class="bread-list">
-                        <li><a href="{{ url('/') }}">Ana Sayfa</a></li>
-                        <li><i class="icofont-simple-right"></i></li>
-                        <li class="active">İletişim</li>
-                    </ul>
+                    <h2 style="color: #fff;">İletişim</h2>
+                    <p style="color: #fff; margin: 20px auto 0; max-width: 800px;">Medikal görüntüleme sistemleri ve teknik servis hizmetlerimiz hakkında bilgi almak için bizimle iletişime geçin. Uzman ekibimiz size yardımcı olmaktan mutluluk duyacaktır.</p>
                 </div>
             </div>
         </div>

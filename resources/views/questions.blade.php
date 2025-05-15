@@ -7,12 +7,8 @@
         <div class="bread-inner">
             <div class="row">
                 <div class="col-12">
-                    <h2>Sıkça Sorulan Sorular</h2>
-                    <ul class="bread-list">
-                        <li><a href="{{ url('/') }}">Ana Sayfa</a></li>
-                        <li><i class="icofont-simple-right"></i></li>
-                        <li class="active">SSS</li>
-                    </ul>
+                    <h2 style="color: #fff;">Sıkça Sorulan Sorular</h2>
+                    <p style="color: #fff; margin: 20px auto 0; max-width: 800px;">Medikal görüntüleme sistemleri ve hizmetlerimiz hakkında sık sorulan soruların cevaplarını burada bulabilirsiniz. Aradığınız bilgiye hızlıca ulaşın.</p>
                 </div>
             </div>
         </div>

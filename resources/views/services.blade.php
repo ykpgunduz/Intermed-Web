@@ -2,17 +2,13 @@
 
 @section('content')
 <!-- Breadcrumbs -->
-<div class="breadcrumbs overlay" style="background-image: url('{{ asset('img/service-breadcrumb.jpg') }}'); background-size: cover; background-position: center;">
+<div class="breadcrumbs overlay" style="background-image: url('{{ asset('img/services-bg.jpg') }}'); background-size: cover; background-position: center;">
     <div class="container">
         <div class="bread-inner">
             <div class="row">
                 <div class="col-12">
-                    <h2>Hizmetlerimiz</h2>
-                    <ul class="bread-list">
-                        <li><a href="{{ url('/') }}">Ana Sayfa</a></li>
-                        <li><i class="icofont-simple-right"></i></li>
-                        <li class="active">Hizmetlerimiz</li>
-                    </ul>
+                    <h2 style="color: #fff;">Servislerimiz</h2>
+                    <p style="color: #fff; margin: 20px auto 0; max-width: 800px;">Sağlık sektöründe 30 yılı aşkın deneyimimizle, modern tıbbi görüntüleme sistemleri ve teknik servis çözümleri sunuyoruz. Profesyonel ekibimiz ve kapsamlı hizmet ağımızla yanınızdayız.</p>
                 </div>
             </div>
         </div>

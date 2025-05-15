@@ -7,14 +7,8 @@
         <div class="bread-inner">
             <div class="row">
                 <div class="col-12">
-                    <h2>Blog Detay</h2>
-                    <ul class="bread-list">
-                        <li><a href="{{ url('/') }}">Ana Sayfa</a></li>
-                        <li><i class="icofont-simple-right"></i></li>
-                        <li><a href="{{ route('blogs') }}">Blog</a></li>
-                        <li><i class="icofont-simple-right"></i></li>
-                        <li class="active">{{ $blog->title ?? 'Blog Detay' }}</li>
-                    </ul>
+                    <h2 style="color: #fff;">Blog Detay</h2>
+                    <p style="color: #fff; margin-top: 20px; max-width: 800px;">Medikal görüntüleme teknolojileri ve sağlık sektöründeki gelişmeler hakkında detaylı bilgi ve analizler. Makalelerimizi okuyarak sektördeki son gelişmeleri takip edin.</p>
                 </div>
             </div>
         </div>

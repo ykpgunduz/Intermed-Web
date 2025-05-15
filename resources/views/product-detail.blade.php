@@ -7,14 +7,8 @@
         <div class="bread-inner">
             <div class="row">
                 <div class="col-12">
-                    <h2>Ürün Detay</h2>
-                    <ul class="bread-list">
-                        <li><a href="{{ url('/') }}">Ana Sayfa</a></li>
-                        <li><i class="icofont-simple-right"></i></li>
-                        <li><a href="{{ route('products') }}">Ürünler</a></li>
-                        <li><i class="icofont-simple-right"></i></li>
-                        <li class="active">{{ $product->name ?? 'Ürün Detay' }}</li>
-                    </ul>
+                    <h2 style="color: #fff;">Ürün Detay</h2>
+                    <p style="color: #fff; margin-top: 20px; max-width: 800px;">Medikal görüntüleme sistemlerimiz hakkında detaylı teknik bilgi ve özellikler. Ürünlerimizin avantajlarını ve kullanım alanlarını keşfedin.</p>
                 </div>
             </div>
         </div>

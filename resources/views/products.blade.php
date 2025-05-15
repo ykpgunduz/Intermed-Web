@@ -2,46 +2,19 @@
 
 @section('content')
 <!-- Breadcrumbs -->
-<div class="breadcrumbs overlay" style="background-image: url('{{ asset('img/product-breadcrumb.jpg') }}'); background-size: cover; background-position: center;">
+<div class="breadcrumbs overlay" style="background-image: url('{{ asset('img/banner-1.jpeg') }}'); background-size: cover; background-position: center;">
     <div class="container">
         <div class="bread-inner">
             <div class="row">
                 <div class="col-12">
-                    <h2>Ürünlerimiz</h2>
-                    <ul class="bread-list">
-                        <li><a href="{{ url('/') }}">Ana Sayfa</a></li>
-                        <li><i class="icofont-simple-right"></i></li>
-                        <li class="active">Ürünlerimiz</li>
-                    </ul>
+                    <h2 style="color: #fff;">Ürünlerimiz</h2>
+                    <p style="color: #fff; margin: 20px auto 0; max-width: 800px;">En son teknoloji medikal görüntüleme sistemlerimiz ile sağlık sektörüne yenilikçi çözümler sunuyoruz. MR, CT, X-Ray ve Ultrason sistemlerimizi keşfedin.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- End Breadcrumbs -->
-
-<!-- Başlık Bölümü Başlangıç -->
-<section class="page-title bg-gradient">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title text-center">
-                    <div class="section-icon">
-                        <i class="icofont-medical-sign-alt text-primary mb-3" style="font-size: 3rem;"></i>
-                    </div>
-                    <h2 class="text-gradient">Medikal Görüntüleme Sistemleri</h2>
-                    <p class="lead text-muted mt-3">En son teknoloji medikal görüntüleme cihazlarımız ile sağlık sektörüne yenilikçi çözümler sunuyoruz</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="shape-divider">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-        </svg>
-    </div>
-</section>
-<!-- Başlık Bölümü Sonu -->
 
 <!-- Ürünler Bölümü Başlangıç -->
 <section class="portfolio section bg-light">
