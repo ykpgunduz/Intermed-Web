@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- Breadcrumbs -->
-<div class="breadcrumbs overlay">
+<div class="breadcrumbs overlay" style="background-image: url('{{ asset('img/service-breadcrumb.jpg') }}'); background-size: cover; background-position: center;">
     <div class="container">
         <div class="bread-inner">
             <div class="row">
