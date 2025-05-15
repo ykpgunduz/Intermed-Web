@@ -11,14 +11,6 @@
                         <i class="icofont-medical-sign-alt text-primary mb-3" style="font-size: 3rem;"></i>
                     </div>
                     <h2 class="text-gradient">Medikal Görüntüleme Sistemleri</h2>
-                    <div class="breadcrumb-wrap">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center bg-transparent p-0 m-0">
-                                <li class="breadcrumb-item"><a href="/">Ana Sayfa</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Ürünlerimiz</li>
-                            </ol>
-                        </nav>
-                    </div>
                     <p class="lead text-muted mt-3">En son teknoloji medikal görüntüleme cihazlarımız ile sağlık sektörüne yenilikçi çözümler sunuyoruz</p>
                 </div>
             </div>

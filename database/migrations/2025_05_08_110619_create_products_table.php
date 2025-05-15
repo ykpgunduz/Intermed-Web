@@ -16,9 +16,10 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug');
             $table->decimal('price', 10, 2);
+            $table->string('image')->nullable();
             $table->foreignId('category_id')->constrained('categories');
-            $table->foreignId('brand_id')->constrained('brands');
-            $table->enum('status', ['active', 'inactive']);
+            $table->foreignId('brand_id')->nullable()->constrained('brands');
+            $table->enum('status', ['active', 'inactive'])->default('active');
             $table->text('description');
             $table->timestamps();
         });
