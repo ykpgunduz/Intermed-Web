@@ -38,34 +38,27 @@
         <!-- Kategori Filtreleme -->
         <div class="row mb-5">
             <div class="col-12">
-                <div class="portfolio-menu text-center">
-                    <ul id="portfolio-nav" class="portfolio-nav nav nav-pills justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-filter="*">
-                                <i class="icofont-medical-sign"></i> Tüm Ürünler
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-filter=".mri">
-                                <i class="icofont-brain-alt"></i> MRI Sistemleri
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-filter=".ct">
-                                <i class="icofont-patient-bed"></i> CT Sistemleri
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-filter=".xray">
-                                <i class="icofont-xray"></i> X-Ray Sistemleri
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-filter=".ultrasound">
-                                <i class="icofont-heart-beat-alt"></i> Ultrason Sistemleri
-                            </a>
-                        </li>
-                    </ul>
+                <div class="filter-buttons text-center">
+                    <button type="button" class="filter-btn active" data-filter="*">
+                        <i class="icofont-medical-sign"></i>
+                        <span>Tüm Ürünler</span>
+                    </button>
+                    <button type="button" class="filter-btn" data-filter=".mri">
+                        <i class="icofont-brain-alt"></i>
+                        <span>MRI Sistemleri</span>
+                    </button>
+                    <button type="button" class="filter-btn" data-filter=".ct">
+                        <i class="icofont-patient-bed"></i>
+                        <span>CT Sistemleri</span>
+                    </button>
+                    <button type="button" class="filter-btn" data-filter=".xray">
+                        <i class="icofont-xray"></i>
+                        <span>X-Ray Sistemleri</span>
+                    </button>
+                    <button type="button" class="filter-btn" data-filter=".ultrasound">
+                        <i class="icofont-heart-beat-alt"></i>
+                        <span>Ultrason Sistemleri</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -73,124 +66,34 @@
         <div class="row portfolio-items">
             <!-- MRI Ürün 1 -->
             <div class="col-lg-4 col-md-6 col-12 mri mb-4">
-                <div class="card product-card h-100 border-0">
-                    <div class="card-top position-relative">
-                        <div class="product-image">
-                            <img src="https://www.anke.com/uploadfile/product/2024062817/667e7bb9cf60a.jpeg" class="card-img-top" alt="MRI System">
-                        </div>
-                        <div class="product-overlay">
-                            <div class="product-actions d-flex flex-column align-items-center">
-                                <a href="#" class="action-btn mb-2" data-bs-toggle="tooltip" title="Teknik Özellikler">
-                                    <i class="icofont-gear"></i>
-                                </a>
-                                <a href="#" class="action-btn mb-2" data-bs-toggle="tooltip" title="Galeri">
-                                    <i class="icofont-image"></i>
-                                </a>
-                                <a href="#" class="action-btn" data-bs-toggle="tooltip" title="Video">
-                                    <i class="icofont-play-alt-1"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="product-badge bg-gradient-primary text-white">
-                            <span>Yeni</span>
-                        </div>
+                <div class="card product-card h-100 border-0 shadow-sm">
+                    <div class="position-relative">
+                        <img src="{{ asset('img/banner-2.jpeg') }}" class="card-img-top" alt="MRI System">
                     </div>
                     <div class="card-body p-4">
-                        <div class="product-category d-flex align-items-center mb-2">
-                            <i class="icofont-brain-alt text-primary me-2"></i>
-                            <span>MRI Sistemleri</span>
-                        </div>
+                        <span class="badge bg-primary">MRI Sistemleri</span>
                         <h3 class="card-title h5 mb-3">ASM-1.5T Superconducting MRI</h3>
-                        <div class="product-features">
-                            <ul class="list-unstyled mb-4">
-                                <li class="d-flex align-items-center mb-2">
-                                    <span class="feature-icon bg-primary-soft rounded-circle p-1 me-2">
-                                        <i class="icofont-check-circled text-primary"></i>
-                                    </span>
-                                    <span>1.5T Süperiletken Mıknatıs</span>
-                                </li>
-                                <li class="d-flex align-items-center mb-2">
-                                    <span class="feature-icon bg-primary-soft rounded-circle p-1 me-2">
-                                        <i class="icofont-check-circled text-primary"></i>
-                                    </span>
-                                    <span>70cm Geniş Bore</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <span class="feature-icon bg-primary-soft rounded-circle p-1 me-2">
-                                        <i class="icofont-check-circled text-primary"></i>
-                                    </span>
-                                    <span>Yapay Zeka Destekli Görüntüleme</span>
-                                </li>
-                            </ul>
-                        </div>
+                        <p class="card-text text-muted">1.5T Süperiletken mıknatıs teknolojisi ile donatılmış, 70cm geniş bore özellikli ve yapay zeka destekli görüntüleme sistemi.</p>
                     </div>
                     <div class="card-footer bg-white p-4 border-0">
-                        <a href="/product-detail" class="btn btn-primary btn-lg w-100 d-flex align-items-center justify-content-center">
-                            <i class="icofont-search-document me-2"></i>
-                            Detaylı İncele
-                        </a>
+                        <a href="/product-detail" class="btn btn-primary w-100">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
 
             <!-- CT Ürün 1 -->
             <div class="col-lg-4 col-md-6 col-12 ct mb-4">
-                <div class="card product-card h-100 border-0">
-                    <div class="card-top position-relative">
-                        <div class="product-image">
-                            <img src="https://www.anke.com/uploadfile/product/2023090816/64fad7173aff3.jpeg" class="card-img-top" alt="CT Scanner">
-                        </div>
-                        <div class="product-overlay">
-                            <div class="product-actions d-flex flex-column align-items-center">
-                                <a href="#" class="action-btn mb-2" data-bs-toggle="tooltip" title="Teknik Özellikler">
-                                    <i class="icofont-gear"></i>
-                                </a>
-                                <a href="#" class="action-btn mb-2" data-bs-toggle="tooltip" title="Galeri">
-                                    <i class="icofont-image"></i>
-                                </a>
-                                <a href="#" class="action-btn" data-bs-toggle="tooltip" title="Video">
-                                    <i class="icofont-play-alt-1"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="product-badge bg-gradient-success text-white">
-                            <span>Popüler</span>
-                        </div>
+                <div class="card product-card h-100 border-0 shadow-sm">
+                    <div class="position-relative">
+                        <img src="{{ asset('img/banner-3.jpeg') }}" class="card-img-top" alt="CT Scanner">
                     </div>
                     <div class="card-body p-4">
-                        <div class="product-category d-flex align-items-center mb-2">
-                            <i class="icofont-patient-bed text-primary me-2"></i>
-                            <span>CT Sistemleri</span>
-                        </div>
+                        <span class="badge bg-primary">CT Sistemleri</span>
                         <h3 class="card-title h5 mb-3">ACT-64 CT Scanner</h3>
-                        <div class="product-features">
-                            <ul class="list-unstyled mb-4">
-                                <li class="d-flex align-items-center mb-2">
-                                    <span class="feature-icon bg-primary-soft rounded-circle p-1 me-2">
-                                        <i class="icofont-check-circled text-primary"></i>
-                                    </span>
-                                    <span>64 Kesit Görüntüleme</span>
-                                </li>
-                                <li class="d-flex align-items-center mb-2">
-                                    <span class="feature-icon bg-primary-soft rounded-circle p-1 me-2">
-                                        <i class="icofont-check-circled text-primary"></i>
-                                    </span>
-                                    <span>Düşük Radyasyon Dozu</span>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <span class="feature-icon bg-primary-soft rounded-circle p-1 me-2">
-                                        <i class="icofont-check-circled text-primary"></i>
-                                    </span>
-                                    <span>Hızlı Tarama Süresi</span>
-                                </li>
-                            </ul>
-                        </div>
+                        <p class="card-text text-muted">64 kesit görüntüleme teknolojisi, düşük radyasyon dozu ve hızlı tarama süresi sunan gelişmiş CT sistemi.</p>
                     </div>
                     <div class="card-footer bg-white p-4 border-0">
-                        <a href="/product-detail" class="btn btn-primary btn-lg w-100 d-flex align-items-center justify-content-center">
-                            <i class="icofont-search-document me-2"></i>
-                            Detaylı İncele
-                        </a>
+                        <a href="/product-detail" class="btn btn-primary w-100">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -199,17 +102,12 @@
             <div class="col-lg-4 col-md-6 col-12 xray mb-4">
                 <div class="card product-card h-100 border-0 shadow-sm">
                     <div class="position-relative">
-                        <img src="https://www.anke.com/uploadfile/product/2023090711/64f9471b2bec9.jpeg" class="card-img-top" alt="Digital X-Ray">
+                        <img src="{{ asset('img/banner-4.jpeg') }}" class="card-img-top" alt="Digital X-Ray">
                     </div>
                     <div class="card-body p-4">
-                        <div class="product-category text-muted mb-2">X-Ray Sistemleri</div>
+                        <span class="badge bg-primary">X-Ray Sistemleri</span>
                         <h3 class="card-title h5 mb-3">ADR Digital X-Ray</h3>
-                        <p class="card-text text-muted">Yüksek çözünürlüklü dijital röntgen sistemi ile net görüntüler.</p>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2"><i class="icofont-check-circled text-primary me-2"></i>Dijital Dedektör</li>
-                            <li class="mb-2"><i class="icofont-check-circled text-primary me-2"></i>Yüksek Çözünürlük</li>
-                            <li><i class="icofont-check-circled text-primary me-2"></i>Kolay Kullanım</li>
-                        </ul>
+                        <p class="card-text text-muted">Yüksek çözünürlüklü dijital dedektör teknolojisi ile donatılmış, kullanımı kolay ve net görüntüler sunan röntgen sistemi.</p>
                     </div>
                     <div class="card-footer bg-white p-4 border-0">
                         <a href="/product-detail" class="btn btn-primary w-100">Detaylı İncele</a>
@@ -221,20 +119,12 @@
             <div class="col-lg-4 col-md-6 col-12 ultrasound mb-4">
                 <div class="card product-card h-100 border-0 shadow-sm">
                     <div class="position-relative">
-                        <img src="https://www.anke.com/uploadfile/product/2023090711/64f9471b2bec9.jpeg" class="card-img-top" alt="Ultrasound System">
-                        <div class="product-badge bg-info text-white position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill">
-                            4D Teknoloji
-                        </div>
+                        <img src="{{ asset('img/banner-5.jpeg') }}" class="card-img-top" alt="Ultrasound System">
                     </div>
                     <div class="card-body p-4">
-                        <div class="product-category text-muted mb-2">Ultrason Sistemleri</div>
+                        <span class="badge bg-primary">Ultrason Sistemleri</span>
                         <h3 class="card-title h5 mb-3">AUS-Q9 Color Doppler</h3>
-                        <p class="card-text text-muted">Gelişmiş 4D görüntüleme özellikli ultrason sistemi.</p>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2"><i class="icofont-check-circled text-primary me-2"></i>4D Görüntüleme</li>
-                            <li class="mb-2"><i class="icofont-check-circled text-primary me-2"></i>Color Doppler</li>
-                            <li><i class="icofont-check-circled text-primary me-2"></i>Geniş Ekran</li>
-                        </ul>
+                        <p class="card-text text-muted">Gelişmiş 4D görüntüleme teknolojisi ve Color Doppler özelliği ile donatılmış, geniş ekranlı ultrason sistemi.</p>
                     </div>
                     <div class="card-footer bg-white p-4 border-0">
                         <a href="/product-detail" class="btn btn-primary w-100">Detaylı İncele</a>
@@ -246,20 +136,12 @@
             <div class="col-lg-4 col-md-6 col-12 mri mb-4">
                 <div class="card product-card h-100 border-0 shadow-sm">
                     <div class="position-relative">
-                        <img src="https://www.anke.com/uploadfile/product/2024062817/667e7bb9cf60a.jpeg" class="card-img-top" alt="Open MRI">
-                        <div class="product-badge bg-warning text-dark position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill">
-                            Açık MRI
-                        </div>
+                        <img src="{{ asset('img/banner-6.jpeg') }}" class="card-img-top" alt="Open MRI">
                     </div>
                     <div class="card-body p-4">
-                        <div class="product-category text-muted mb-2">MRI Sistemleri</div>
+                        <span class="badge bg-primary">MRI Sistemleri</span>
                         <h3 class="card-title h5 mb-3">ASM-0.4T Open MRI</h3>
-                        <p class="card-text text-muted">Açık tasarımlı, hasta konforu odaklı MRI sistemi.</p>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2"><i class="icofont-check-circled text-primary me-2"></i>Açık Tasarım</li>
-                            <li class="mb-2"><i class="icofont-check-circled text-primary me-2"></i>Hasta Konforu</li>
-                            <li><i class="icofont-check-circled text-primary me-2"></i>Düşük Gürültü</li>
-                        </ul>
+                        <p class="card-text text-muted">Açık tasarımlı, hasta konforu odaklı ve düşük gürültü seviyesi ile öne çıkan MRI sistemi.</p>
                     </div>
                     <div class="card-footer bg-white p-4 border-0">
                         <a href="/product-detail" class="btn btn-primary w-100">Detaylı İncele</a>
@@ -271,20 +153,12 @@
             <div class="col-lg-4 col-md-6 col-12 ct mb-4">
                 <div class="card product-card h-100 border-0 shadow-sm">
                     <div class="position-relative">
-                        <img src="https://www.anke.com/uploadfile/product/2023090816/64fad7173aff3.jpeg" class="card-img-top" alt="CT Scanner">
-                        <div class="product-badge bg-secondary text-white position-absolute top-0 end-0 m-3 px-3 py-2 rounded-pill">
-                            Ekonomik
-                        </div>
+                        <img src="{{ asset('img/banner-7.jpg') }}" class="card-img-top" alt="CT Scanner">
                     </div>
                     <div class="card-body p-4">
-                        <div class="product-category text-muted mb-2">CT Sistemleri</div>
+                        <span class="badge bg-primary">CT Sistemleri</span>
                         <h3 class="card-title h5 mb-3">ACT-16 CT Scanner</h3>
-                        <p class="card-text text-muted">16 kesit CT tarayıcı, ekonomik çözüm sunar.</p>
-                        <ul class="list-unstyled mb-4">
-                            <li class="mb-2"><i class="icofont-check-circled text-primary me-2"></i>16 Kesit</li>
-                            <li class="mb-2"><i class="icofont-check-circled text-primary me-2"></i>Kompakt Tasarım</li>
-                            <li><i class="icofont-check-circled text-primary me-2"></i>Uygun Maliyet</li>
-                        </ul>
+                        <p class="card-text text-muted">16 kesit teknolojisi ile donatılmış, kompakt tasarımlı ve uygun maliyetli CT tarayıcı sistemi.</p>
                     </div>
                     <div class="card-footer bg-white p-4 border-0">
                         <a href="/product-detail" class="btn btn-primary w-100">Detaylı İncele</a>
@@ -292,61 +166,35 @@
                 </div>
             </div>
         </div>
+
+        <!-- Pagination Başlangıç -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <nav aria-label="Sayfalama">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                <i class="icofont-rounded-left"></i>
+                                Önceki
+                            </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                Sonraki
+                                <i class="icofont-rounded-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Pagination Sonu -->
     </div>
 </section>
 <!-- Ürünler Bölümü Sonu -->
-
-<!-- İletişim CTA Bölümü -->
-<section class="cta-section bg-gradient-secondary py-5">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-8 col-md-7">
-                <div class="section-title text-white mb-0">
-                    <h2 class="text-white mb-3">Ürünlerimiz Hakkında Bilgi Alın</h2>
-                    <p class="lead mb-0">Medikal görüntüleme cihazlarımız hakkında detaylı bilgi almak için bizimle iletişime geçin</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-5 text-md-end mt-4 mt-md-0">
-                <a href="/contact" class="btn btn-light btn-lg">
-                    <i class="icofont-envelope me-2"></i>
-                    İletişime Geçin
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- İletişim CTA Bölümü Sonu -->
-
-<!-- Bülten Bölümü Başlangıç -->
-<section class="newsletter-section py-5 bg-light">
-    <div class="container">
-        <div class="newsletter-box bg-white rounded-3 shadow-sm p-5">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-                    <div class="subscribe-text">
-                        <div class="newsletter-icon mb-3">
-                            <i class="icofont-envelope-open text-primary" style="font-size: 3rem;"></i>
-                        </div>
-                        <h4 class="mb-3">Bültenimize Kayıt Olun</h4>
-                        <p class="text-muted mb-0">Yeni ürünler ve kampanyalardan haberdar olmak için bültenimize abone olun.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <form action="mail/mail.php" method="get" target="_blank" class="newsletter-form">
-                        <div class="input-group">
-                            <input type="email" class="form-control form-control-lg" placeholder="E-posta adresiniz" required>
-                            <button class="btn btn-primary btn-lg px-4" type="submit">
-                                <i class="icofont-paper-plane me-2"></i>
-                                Abone Ol
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Bülten Bölümü Sonu -->
 
 <style>
 /* Genel Stiller */
@@ -405,321 +253,338 @@
     fill: var(--light);
 }
 
-/* Ürün Kartı */
+/* Ürün Kartı Temel Stilleri */
 .product-card {
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    border-radius: 1.5rem;
+    transition: all 0.3s ease;
+    border-radius: 1rem;
     overflow: hidden;
-    background: var(--white);
+    background: #fff;
 }
 
 .product-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 1rem 3rem rgba(0,0,0,0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1) !important;
 }
 
-.product-image {
-    position: relative;
-    padding-top: 75%;
+.product-card .position-relative {
+    height: 370px;
     overflow: hidden;
-    background: var(--light);
+    background-color: #f8f9fa;
+    border-radius: 1rem 1rem 0 0;
+    margin-bottom: 0;
 }
 
-.product-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
+.product-card img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    padding: 2rem;
-    transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.product-card:hover .product-image img {
-    transform: scale(1.1);
-}
-
-/* Ürün Overlay */
-.product-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(26, 118, 209, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.product-card:hover .product-overlay {
-    opacity: 1;
-    visibility: visible;
-}
-
-.action-btn {
-    width: 45px;
-    height: 45px;
-    background: var(--white);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary);
-    text-decoration: none;
-    transition: all 0.3s ease;
-    transform: translateY(20px);
-    opacity: 0;
-}
-
-.product-card:hover .action-btn {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-.action-btn:hover {
-    background: var(--primary);
-    color: var(--white);
-    transform: translateY(-3px) scale(1.1);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-}
-
-.product-card:hover .action-btn:nth-child(1) {
-    transition-delay: 0.1s;
-}
-
-.product-card:hover .action-btn:nth-child(2) {
-    transition-delay: 0.2s;
-}
-
-.product-card:hover .action-btn:nth-child(3) {
-    transition-delay: 0.3s;
-}
-
-/* Ürün Rozeti */
-.product-badge {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    padding: 0.6rem 1.2rem;
-    border-radius: 2rem;
-    font-size: 0.875rem;
-    font-weight: 600;
-    z-index: 1;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    backdrop-filter: blur(5px);
-}
-
-/* Kategori Filtreleme */
-.portfolio-nav {
-    background: var(--white);
-    padding: 0.5rem;
-    border-radius: 3rem;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-}
-
-.portfolio-nav .nav-link {
-    color: var(--gray);
-    padding: 0.75rem 1.5rem;
-    margin: 0.25rem;
-    border-radius: 2rem;
-    transition: all 0.3s ease;
-    font-weight: 500;
-    position: relative;
-    overflow: hidden;
-}
-
-.portfolio-nav .nav-link i {
-    margin-right: 0.5rem;
-    font-size: 1.1em;
-    vertical-align: middle;
-}
-
-.portfolio-nav .nav-link:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--primary);
-    border-radius: 2rem;
-    transform: scaleX(0);
-    transform-origin: right;
     transition: transform 0.3s ease;
-    z-index: -1;
+    display: block;
 }
 
-.portfolio-nav .nav-link:hover:before,
-.portfolio-nav .nav-link.active:before {
-    transform: scaleX(1);
-    transform-origin: left;
+.product-card:hover img {
+    transform: scale(1.05);
 }
 
-.portfolio-nav .nav-link:hover,
-.portfolio-nav .nav-link.active {
-    color: var(--white);
-}
-
-/* Özellik İkonları */
-.feature-icon {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-
-.product-features li:hover .feature-icon {
-    transform: scale(1.1);
-    background: var(--primary);
-}
-
-.product-features li:hover .feature-icon i {
-    color: var(--white);
-}
-
-/* Ürün Kategori */
-.product-category {
+.badge {
     font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    margin: 0 0 1rem 0;
+}
+
+.card-body {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 0 1.75rem 1.75rem 1.75rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-bottom: 1.25rem;
+    color: #2d3436;
     font-weight: 600;
-    color: var(--gray);
-    transition: all 0.3s ease;
 }
 
-.product-category i {
-    transition: all 0.3s ease;
+.card-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #636e72;
+    margin-bottom: 1.75rem;
 }
 
-.product-card:hover .product-category {
-    color: var(--primary);
+.card-footer {
+    background: #fff;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    padding: 1.25rem 1.5rem;
 }
 
-.product-card:hover .product-category i {
-    transform: scale(1.2);
-}
-
-/* Butonlar */
 .btn {
     border-radius: 2rem;
     padding: 0.75rem 1.5rem;
-    font-weight: 600;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-    position: relative;
-    overflow: hidden;
-}
-
-.btn-lg {
-    padding: 1rem 2rem;
-}
-
-.btn-primary {
-    background: var(--primary);
-    border-color: var(--primary);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: center;
 }
 
 .btn-primary:hover {
-    background: var(--primary-dark);
-    border-color: var(--primary-dark);
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(26, 118, 209, 0.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.btn-primary:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 120%;
-    height: 120%;
-    background: rgba(255,255,255,0.2);
-    transform: translate(-50%, -50%) scale(0);
-    border-radius: 50%;
-    transition: transform 0.5s ease;
+/* Pagination Stilleri */
+.pagination {
+    gap: 0.5rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-primary:hover:after {
-    transform: translate(-50%, -50%) scale(1);
-}
-
-/* Newsletter Kutusu */
-.newsletter-box {
+.page-link {
+    border: none;
+    padding: 0.75rem 1.25rem;
     border-radius: 2rem;
+    color: #6c757d;
+    background-color: #f8f9fa;
     transition: all 0.3s ease;
 }
 
-.newsletter-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 1rem 3rem rgba(0,0,0,0.1);
+.page-link:hover {
+    background-color: #e9ecef;
+    color: #343a40;
+    transform: translateY(-2px);
 }
 
-.form-control {
-    border-radius: 2rem;
-    padding: 1rem 1.5rem;
-    border: 2px solid #e9ecef;
-    transition: all 0.3s ease;
+.page-item.active .page-link {
+    background-color: var(--primary);
+    color: white;
 }
 
-.form-control:focus {
-    border-color: var(--primary);
-    box-shadow: 0 0 0 0.2rem rgba(26, 118, 209, 0.15);
-}
-
-/* Animasyonlar */
-@keyframes float {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-5px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
-}
-
-.newsletter-icon i {
-    animation: float 3s ease-in-out infinite;
+.page-item.disabled .page-link {
+    background-color: #f8f9fa;
+    color: #adb5bd;
 }
 
 /* Responsive Ayarlar */
+@media (max-width: 1200px) {
+    .product-card .position-relative {
+        height: 340px;
+    }
+
+    .card-body {
+        padding: 1.25rem;
+    }
+
+    .card-title {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .product-card .position-relative {
+        height: 300px;
+    }
+}
+
 @media (max-width: 768px) {
-    .portfolio-nav {
-        padding: 0.25rem;
-    }
-
-    .portfolio-nav .nav-link {
-        padding: 0.5rem 1rem;
-        margin: 0.15rem;
-        font-size: 0.9rem;
-    }
-
-    .newsletter-box {
-        padding: 2rem !important;
-    }
-
     .product-card {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .product-card .position-relative {
+        height: 320px;
+    }
+
+    .card-body {
+        padding: 0 1.25rem 1.25rem 1.25rem;
+    }
+
+    .badge {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.9rem;
+        margin: 1.25rem 0;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .page-link {
+        padding: 0.5rem 1rem;
     }
 }
 
 @media (max-width: 576px) {
-    .portfolio-nav .nav-link i {
-        margin-right: 0;
+    .product-card .position-relative {
+        height: 260px;
     }
 
-    .portfolio-nav .nav-link span {
-        display: none;
+    .card-body {
+        padding: 0 1rem 1rem 1rem;
     }
 
-    .action-btn {
-        width: 40px;
-        height: 40px;
+    .badge {
+        font-size: 0.75rem;
+        padding: 0.35rem 0.8rem;
+        margin: 1rem 0;
+    }
+
+    .card-title {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .card-text {
+        font-size: 0.85rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .card-footer {
+        padding: 1rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .pagination {
+        gap: 0.25rem;
+    }
+
+    .page-link {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Kategori Filtreleme Stilleri */
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    padding: 1.5rem 0;
+    margin: 0 -0.375rem;
+}
+
+.filter-btn {
+    background: #fff;
+    border: 1px solid #e9ecef;
+    padding: 0.875rem 1.5rem;
+    border-radius: 2rem;
+    color: #6c757d;
+    font-size: 0.95rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin: 0 0.375rem;
+    white-space: nowrap;
+}
+
+.filter-btn i {
+    font-size: 1.25rem;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.filter-btn:hover i, .filter-btn.active i {
+    transform: scale(1.1);
+}
+
+/* Responsive Ayarlar */
+@media (max-width: 1200px) {
+    .filter-buttons {
+        gap: 0.5rem;
+        padding: 1.25rem 0;
+    }
+
+    .filter-btn {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .filter-buttons {
+        padding: 1rem 0;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: flex-start;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+        padding-bottom: 1rem;
+    }
+
+    .filter-buttons::-webkit-scrollbar {
+        display: none; /* Chrome, Safari and Opera */
+    }
+
+    .filter-btn {
+        padding: 0.625rem 1.125rem;
+        font-size: 0.875rem;
+        flex: 0 0 auto;
+    }
+
+    .filter-btn i {
+        font-size: 1.125rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .filter-buttons {
+        margin: 0 -1rem;
+        padding: 1rem;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
+    }
+
+    .filter-btn i {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .filter-buttons {
+        margin: 0 -0.75rem;
+        padding: 0.75rem;
+    }
+
+    .filter-btn {
+        padding: 0.5rem 0.875rem;
+        font-size: 0.8rem;
+    }
+
+    .filter-btn i {
+        font-size: 0.975rem;
     }
 }
 </style>
@@ -727,58 +592,25 @@
 @push('scripts')
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Bootstrap Tooltip'leri aktifleştir
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-    });
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const items = document.querySelectorAll('.portfolio-items .col-lg-4');
 
-    // Ürün kartları için gelişmiş hover efekti
-    const productCards = document.querySelectorAll('.product-card');
-    productCards.forEach(card => {
-        card.addEventListener('mouseenter', function() {
-            this.style.transform = 'translateY(-10px)';
-            this.style.boxShadow = '0 1rem 3rem rgba(0,0,0,0.15)';
-        });
-
-        card.addEventListener('mouseleave', function() {
-            this.style.transform = 'translateY(0)';
-            this.style.boxShadow = 'none';
-        });
-    });
-
-    // Özellik ikonları için hover efekti
-    const featureIcons = document.querySelectorAll('.feature-icon');
-    featureIcons.forEach(icon => {
-        icon.addEventListener('mouseenter', function() {
-            this.style.transform = 'scale(1.1)';
-            this.style.background = 'var(--primary)';
-            this.querySelector('i').style.color = 'white';
-        });
-
-        icon.addEventListener('mouseleave', function() {
-            this.style.transform = 'scale(1)';
-            this.style.background = 'var(--primary-light)';
-            this.querySelector('i').style.color = 'var(--primary)';
-        });
-    });
-
-    // Kategori filtreleme için smooth scroll
-    const filterButtons = document.querySelectorAll('.portfolio-nav .nav-link');
     filterButtons.forEach(button => {
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = this.getAttribute('data-filter');
+        button.addEventListener('click', function() {
+            const filterValue = this.getAttribute('data-filter');
 
+            // Aktif buton stilini güncelle
             filterButtons.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
 
-            const items = document.querySelectorAll('.portfolio-items .col-lg-4');
+            // Ürünleri filtrele
             items.forEach(item => {
-                if (target === '*' || item.classList.contains(target.replace('.', ''))) {
-                    item.style.opacity = '1';
-                    item.style.transform = 'scale(1)';
+                if (filterValue === '*' || item.classList.contains(filterValue.replace('.', ''))) {
                     item.style.display = 'block';
+                    setTimeout(() => {
+                        item.style.opacity = '1';
+                        item.style.transform = 'scale(1)';
+                    }, 50);
                 } else {
                     item.style.opacity = '0';
                     item.style.transform = 'scale(0.8)';
