@@ -5,7 +5,7 @@
 		<section class="slider">
 			<div class="hero-slider">
 				<!-- Slider 1 -->
-				<div class="single-slider" style="background: #fff url('https://www.anke.com/uploadfile/banner/2022112813/638446352e94a.jpeg') no-repeat bottom; background-size: contain;">
+				<div class="single-slider" style="background: #fff url({{ asset('img/banner-1.jpeg') }}) no-repeat bottom; background-size: contain;">
 					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-lg-7 text-center" style="margin-top: -50px;">
@@ -19,7 +19,7 @@
 				</div>
 
 				<!-- Slider 2 -->
-				<div class="single-slider" style="background: #e5e5e5 url('https://www.anke.com/uploadfile/product/2024062817/667e7bb9cf60a.jpeg') no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider" style="background: #e5e5e5 url({{ asset('img/banner-2.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -37,7 +37,7 @@
 				</div>
 
 				<!-- Slider 3 -->
-				<div class="single-slider" style="background: #efeff1 url('https://www.anke.com/uploadfile/product/2023090816/64fad7173aff3.jpeg') no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider" style="background: #efeff1 url({{ asset('img/banner-3.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -55,7 +55,7 @@
 				</div>
 
 				<!-- Slider 4 -->
-				<div class="single-slider" style="background: #fff url('https://www.anke.com/uploadfile/product/2023090711/64f9471b2bec9.jpeg') no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider" style="background: #fff url({{ asset('img/banner-4.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -73,7 +73,7 @@
 				</div>
 
 				<!-- Slider 5 -->
-				<div class="single-slider" style="background: #e5e5e5 url('https://www.anke.com/uploadfile/product/2024050911/663c3ee72162e.jpeg') no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider" style="background: #e5e5e5 url({{ asset('img/banner-5.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -91,7 +91,7 @@
 				</div>
 
 				<!-- Slider 6 -->
-				<div class="single-slider" style="background: #e5e5e5 url('https://www.anke.com/uploadfile/product/2024051715/664702275f860.jpeg') no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider" style="background: #e5e5e5 url({{ asset('img/banner-6.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -109,7 +109,7 @@
 				</div>
 
 				<!-- Slider 7 -->
-				<div class="single-slider" style="background: #fff url('https://www.usx-ray.com/resim/urun/big/b1.jpg') no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider" style="background: #fff url({{ asset('img/banner-7.jpg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -127,7 +127,7 @@
 				</div>
 
 				<!-- Slider 8 -->
-				<div class="single-slider" style="background: #efeff1 url('https://www.usx-ray.com/resim/urun/big/FEMINA-DIGITAL-10-DBT-JUN2020-A002.png') no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider" style="background: #efeff1 url({{ asset('img/banner-8.png') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -145,7 +145,7 @@
 				</div>
 
 				<!-- Slider 9 -->
-				<div class="single-slider" style="background: #efeff1 url('https://www.usx-ray.com/resim/urun/big/CHALLENGE_X_2019_A002.png') no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider" style="background: #efeff1 url({{ asset('img/banner-9.png') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -163,7 +163,7 @@
 				</div>
 
                 <!-- Slider 10 -->
-				<div class="single-slider" style="background: #fff url('https://portalimages.blob.core.windows.net/thumbnails/images/5204_Bone%20Densitometer%20(1)-700x700-state_cat-rfq-thumbnail-test01.png') no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider" style="background: #fff url({{ asset('img/banner-10.png') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -281,35 +281,35 @@
 					<div class="col-lg-12 col-12">
 						<div class="owl-carousel portfolio-slider">
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
-								<img src="https://www.anke.com/uploadfile/product/2024062817/667e7bb9cf60a.jpeg" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
+								<img src="{{ asset('img/banner-2.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
 								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
-								<img src="https://www.anke.com/uploadfile/product/2023090816/64fad7173aff3.jpeg" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
+								<img src="{{ asset('img/banner-3.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
 								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
-								<img src="https://www.anke.com/uploadfile/product/2023090711/64f9471b2bec9.jpeg" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
+								<img src="{{ asset('img/banner-4.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
 								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
-								<img src="https://www.anke.com/uploadfile/product/2024050911/663c3ee72162e.jpeg" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
+								<img src="{{ asset('img/banner-5.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
 								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
-								<img src="https://www.usx-ray.com/resim/urun/big/b1.jpg" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
+								<img src="{{ asset('img/banner-6.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
 								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
-								<img src="https://www.usx-ray.com/resim/urun/big/FEMINA-DIGITAL-10-DBT-JUN2020-A002.png" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
+								<img src="{{ asset('img/banner-7.jpg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
 								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
-								<img src="https://www.usx-ray.com/resim/urun/big/CHALLENGE_X_2019_A002.png" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
+								<img src="{{ asset('img/banner-8.png') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
 								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
-								<img src="https://portalimages.blob.core.windows.net/thumbnails/images/5204_Bone%20Densitometer%20(1)-700x700-state_cat-rfq-thumbnail-test01.png" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
+								<img src="{{ asset('img/banner-9.png') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
 								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
 							</div>
 						</div>
