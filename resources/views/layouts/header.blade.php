@@ -47,41 +47,50 @@
                             <nav class="navigation">
                                 <ul class="nav menu">
                                     <li class="{{ Route::currentRouteName() == 'home' ? 'active' : '' }}">
-                                        <a href="{{ route('home') }}">Anasayfa</a>
+                                        <a href="{{ route('home') }}">{{ __('messages.home') }}</a>
                                     </li>
                                     <li class="{{ Route::currentRouteName() == 'about' ? 'active' : '' }}">
-                                        <a href="{{ route('about') }}">Hakkımızda</a>
+                                        <a href="{{ route('about') }}">{{ __('messages.about') }}</a>
                                     </li>
                                     <li class="{{ Route::currentRouteName() == 'services' ? 'active' : '' }}">
-                                        <a href="{{ route('services') }}">Servisler</a>
+                                        <a href="{{ route('services') }}">{{ __('messages.services') }}</a>
                                     </li>
                                     <li class="{{ Route::currentRouteName() == 'products' ? 'active' : '' }}">
-                                        <a href="{{ route('products') }}">Ürünler <i class="icofont-rounded-down"></i></a>
+                                        <a href="{{ route('products') }}">{{ __('messages.products') }} <i class="icofont-rounded-down"></i></a>
                                         <ul class="dropdown">
-                                            <li><a href="blog-single.html">MR Cihazları</a></li>
-                                            <li><a href="blog-single.html">Röntgen Cihazları</a></li>
-                                            <li><a href="blog-single.html">Ultrason Cihazları</a></li>
+                                            <li><a href="blog-single.html">{{ __('messages.mr_devices') }}</a></li>
+                                            <li><a href="blog-single.html">{{ __('messages.xray_devices') }}</a></li>
+                                            <li><a href="blog-single.html">{{ __('messages.ultrasound_devices') }}</a></li>
                                         </ul>
                                     </li>
                                     <li class="{{ Route::currentRouteName() == 'blogs' ? 'active' : '' }}">
-                                        <a href="{{ route('blogs') }}">Blogs <i class="icofont-rounded-down"></i></a>
+                                        <a href="{{ route('blogs') }}">{{ __('messages.blogs') }} <i class="icofont-rounded-down"></i></a>
                                         <ul class="dropdown">
-                                            <li><a href="blog-single.html">MR Makinesi Nasıl Çalışır?</a></li>
-                                            <li><a href="blog-single.html">Röntgen Nasıl Çalışır?</a></li>
-                                            <li><a href="blog-single.html">Ultrason Nasıl Çalışır?</a></li>
+                                            <li><a href="blog-single.html">{{ __('messages.how_mr_works') }}</a></li>
+                                            <li><a href="blog-single.html">{{ __('messages.how_xray_works') }}</a></li>
+                                            <li><a href="blog-single.html">{{ __('messages.how_ultrasound_works') }}</a></li>
                                         </ul>
                                     </li>
                                     <li class="{{ Route::currentRouteName() == 'contact' ? 'active' : '' }}">
-                                        <a href="{{ route('contact') }}">İletişim</a>
+                                        <a href="{{ route('contact') }}">{{ __('messages.contact') }}</a>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
                         <!--/ End Main Menu -->
                     </div>
-                    <div class="col-lg-2 col-12">
-                        <div class="get-quote">
-                            <a href="appointment.html" class="btn">Ürünlerimizi İnceleyin</a>
+                    <div class="col-lg-2 col-12 mt-2">
+                        <div class="language-selector">
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    {{ strtoupper(app()->getLocale()) }}
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                                    <a class="dropdown-item" href="{{ route('language.switch', 'tr') }}">Türkçe</a>
+                                    <a class="dropdown-item" href="{{ route('language.switch', 'az') }}">Azərbaycan</a>
+                                    <a class="dropdown-item" href="{{ route('language.switch', 'en') }}">English</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

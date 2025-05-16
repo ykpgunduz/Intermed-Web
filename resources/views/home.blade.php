@@ -27,8 +27,8 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);"><span>İntermed</span> Superconducting<br>MRI System</h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">A reborn and empowered wide bore 1.5T MRI System</p>
 									<div class="button">
-										<a href="#" class="btn">Ürünü İncele</a>
-										<a href="#" class="btn primary">MRI Series</a>
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.mri_series') }}</a>
 									</div>
 								</div>
 							</div>
@@ -45,8 +45,8 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);"><span>İntermed</span> Permanent<br>MRI System</h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">New generation midfield MRI system Industrial leading technology</p>
 									<div class="button">
-										<a href="#" class="btn">Ürünü İncele</a>
-										<a href="#" class="btn primary">MRI Series</a>
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.mri_series') }}</a>
 									</div>
 								</div>
 							</div>
@@ -63,8 +63,8 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);"><span>İntermed</span> Permanent<br>MRI System For Veterinary</h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">A specific veterinary MRI solution The 6th Generation of ANKE permanent MRI system</p>
 									<div class="button">
-                                        <a href="#" class="btn">Ürünü İncele</a>
-										<a href="#" class="btn primary">MRI Series</a>
+                                        <a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.mri_series') }}</a>
 									</div>
 								</div>
 							</div>
@@ -81,8 +81,8 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);"><span>İntermed</span> CT Series</h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Cutting-Edge 128-Slice CT Scanner</p>
 									<div class="button">
-										<a href="#" class="btn">Ürünü İncele</a>
-										<a href="#" class="btn primary">CT Series</a>
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.ct_series') }}</a>
 									</div>
 								</div>
 							</div>
@@ -99,8 +99,8 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);"><span>İntermed</span> CT Series</h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Cutting-Edge 256-Slice CT Scanner</p>
 									<div class="button">
-										<a href="#" class="btn">Ürünü İncele</a>
-										<a href="#" class="btn primary">CT Series</a>
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.ct_series') }}</a>
 									</div>
 								</div>
 							</div>
@@ -117,8 +117,8 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Fluoroscopy Devices</h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Fully Automatic Versatile Digital Fluoroscopy System</p>
 									<div class="button">
-                                        <a href="#" class="btn">Ürünü İncele</a>
-										<a href="#" class="btn primary">Fluoroscopy Series</a>
+                                        <a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.fluoroscopy_series') }}</a>
 									</div>
 								</div>
 							</div>
@@ -135,8 +135,8 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Mammography Devices<br><span>Femina Digital</span></h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Digital Mammography Device Impact With An Early Diagnosis</p>
 									<div class="button">
-										<a href="#" class="btn">Ürünü İncele</a>
-										<a href="#" class="btn primary">Mammography Series</a>
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.mammography_series') }}</a>
 									</div>
 								</div>
 							</div>
@@ -153,8 +153,8 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Polyrad Premium Csx<br><span>Radiography</span></h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Full Automatic Multi Purpose Double Detector X-Ray System</p>
 									<div class="button">
-										<a href="#" class="btn">Ürünü İncele</a>
-										<a href="#" class="btn primary">Röntgen Series</a>
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.xray_series') }}</a>
 									</div>
 								</div>
 							</div>
@@ -171,8 +171,8 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Digital DXA. Radioscore-DR<br><span>Densitometry</span></h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Digital densitometer with control software<br>for accurate diagnosis of total and local bone density.</p>
 									<div class="button">
-										<a href="#" class="btn">Ürünü İncele</a>
-										<a href="#" class="btn primary">Densitometry Series</a>
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.densitometry_series') }}</a>
 									</div>
 								</div>
 							</div>
@@ -189,9 +189,9 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>Sağlık Sektörüne Yenilikçi Görüntüleme Çözümleri Sunuyoruz</h2>
+							<h2>{{ __('messages.innovative_solutions') }}</h2>
 							<img src="{{ asset('img/section-img.png') }}" alt="#">
-							<p>En son teknoloji tıbbi görüntüleme sistemleri ile sağlık hizmetlerinizi ileriye taşıyın</p>
+							<p>{{ __('messages.move_forward') }}</p>
 						</div>
 					</div>
 				</div>
@@ -199,22 +199,22 @@
 					<div class="col-lg-6 col-12">
 						<!-- Start Choose Left -->
 						<div class="choose-left">
-							<h3>Biz Kimiz?</h3>
-							<p>Medikal görüntüleme sektöründe 20 yılı aşkın deneyimimizle, hastanelere ve sağlık kuruluşlarına en gelişmiş görüntüleme sistemlerini sunuyoruz. MR, röntgen ve ultrason cihazlarında uzmanlaşmış ekibimizle yanınızdayız.</p>
-							<p>Satış sonrası teknik servis ve eğitim desteğimizle kesintisiz hizmet garantisi veriyoruz.</p>
+							<h3>{{ __('messages.who_we_are') }}</h3>
+							<p>{{ __('messages.experience_text') }}</p>
+							<p>{{ __('messages.support_text') }}</p>
 							<div class="row">
 								<div class="col-lg-6">
 									<ul class="list">
-										<li><i class="fa fa-caret-right"></i>Profesyonel Kurulum</li>
-										<li><i class="fa fa-caret-right"></i>7/24 Teknik Destek</li>
-										<li><i class="fa fa-caret-right"></i>Uzman Kadro</li>
+										<li><i class="fa fa-caret-right"></i>{{ __('messages.professional_installation') }}</li>
+										<li><i class="fa fa-caret-right"></i>{{ __('messages.technical_support') }}</li>
+										<li><i class="fa fa-caret-right"></i>{{ __('messages.expert_team') }}</li>
 									</ul>
 								</div>
 								<div class="col-lg-6">
 									<ul class="list">
-										<li><i class="fa fa-caret-right"></i>Hızlı Servis Ağı</li>
-										<li><i class="fa fa-caret-right"></i>Yerinde Eğitim</li>
-										<li><i class="fa fa-caret-right"></i>Yedek Parça Garantisi</li>
+										<li><i class="fa fa-caret-right"></i>{{ __('messages.fast_service') }}</li>
+										<li><i class="fa fa-caret-right"></i>{{ __('messages.onsite_training') }}</li>
+										<li><i class="fa fa-caret-right"></i>{{ __('messages.spare_parts') }}</li>
 									</ul>
 								</div>
 							</div>
@@ -250,11 +250,11 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-12">
 						<div class="content">
-							<h2>Tıbbi Cihaza mı İhtiyacınız Var?<br>Bizi Arayın<br>+994 50 235 26 86</h2>
-							<p>Tıbbi cihaz ihtiyaçlarınız için 7/24 yanınızdayız. Uzman ekibimiz size en uygun çözümü sunmak için hazır.</p>
+							<h2>{{ __('messages.call_to_action_title') }}<br>{{ __('messages.call_us') }}<br>+994 50 235 26 86</h2>
+							<p>{{ __('messages.call_to_action_text') }}</p>
 							<div class="button">
-								<a href="tel:+994502352686" class="btn">Hemen İletişime Geçin</a>
-								<a href="/contact" class="btn second">Daha Fazla Bilgi<i class="fa fa-long-arrow-right"></i></a>
+								<a href="tel:+994502352686" class="btn">{{ __('messages.contact_now') }}</a>
+								<a href="/contact" class="btn second">{{ __('messages.more_info') }}<i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -269,9 +269,9 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>Kataloğumuzdan Bazı Ürünler</h2>
+							<h2>{{ __('messages.catalog_products') }}</h2>
 							<img src="{{ asset('img/section-img.png') }}" alt="#">
-							<p>Geniş ürün yelpazemizde MR, röntgen, ultrason ve diğer tıbbi görüntüleme sistemleri bulunmaktadır. En son teknoloji ile donatılmış cihazlarımız, yüksek kalite ve güvenilirlik standartlarını karşılamaktadır.</p>
+							<p>{{ __('messages.catalog_description') }}</p>
 						</div>
 					</div>
 				</div>
@@ -282,35 +282,35 @@
 						<div class="owl-carousel portfolio-slider">
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
 								<img src="{{ asset('img/banner-2.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
-								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
+								<a href="portfolio-details.html" class="btn">{{ __('messages.view_detail') }}</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
 								<img src="{{ asset('img/banner-3.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
-								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
+								<a href="portfolio-details.html" class="btn">{{ __('messages.view_detail') }}</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
 								<img src="{{ asset('img/banner-4.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
-								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
+								<a href="portfolio-details.html" class="btn">{{ __('messages.view_detail') }}</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
 								<img src="{{ asset('img/banner-5.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
-								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
+								<a href="portfolio-details.html" class="btn">{{ __('messages.view_detail') }}</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
 								<img src="{{ asset('img/banner-6.jpeg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
-								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
+								<a href="portfolio-details.html" class="btn">{{ __('messages.view_detail') }}</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
 								<img src="{{ asset('img/banner-7.jpg') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
-								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
+								<a href="portfolio-details.html" class="btn">{{ __('messages.view_detail') }}</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
 								<img src="{{ asset('img/banner-8.png') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
-								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
+								<a href="portfolio-details.html" class="btn">{{ __('messages.view_detail') }}</a>
 							</div>
 							<div class="single-pf" style="height: 360px; overflow: hidden;">
 								<img src="{{ asset('img/banner-9.png') }}" alt="#" style="width: 100%; height: 100%; object-fit: contain; background-color: #fff;">
-								<a href="portfolio-details.html" class="btn">Detaylı İncele</a>
+								<a href="portfolio-details.html" class="btn">{{ __('messages.view_detail') }}</a>
 							</div>
 						</div>
 						</div>
@@ -364,9 +364,9 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>Sağlık Sektörüne Yönelik Çözümlerimiz</h2>
+							<h2>{{ __('messages.healthcare_solutions') }}</h2>
 							<img src="{{ asset('img/section-img.png') }}" alt="#">
-							<p>Tıbbi görüntüleme alanında en son teknolojiye sahip cihazlarla hizmetinizdeyiz</p>
+							<p>{{ __('messages.healthcare_solutions_subtitle') }}</p>
 						</div>
 					</div>
 				</div>
@@ -375,8 +375,8 @@
 						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="icofont icofont-medical-sign"></i>
-							<h4><a href="service-details.html">MR Sistemleri</a></h4>
-							<p>En son teknoloji MR cihazlarımız ile yüksek çözünürlüklü ve detaylı görüntüleme imkanı sunuyoruz.</p>
+							<h4><a href="service-details.html">{{ __('messages.mr_systems') }}</a></h4>
+							<p>{{ __('messages.mr_systems_desc') }}</p>
 						</div>
 						<!-- End Single Service -->
 					</div>
@@ -384,8 +384,8 @@
 						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="icofont icofont-xray"></i>
-							<h4><a href="service-details.html">Röntgen Sistemleri</a></h4>
-							<p>Dijital ve analog röntgen cihazlarımız ile hızlı ve güvenilir görüntüleme hizmeti sağlıyoruz.</p>
+							<h4><a href="service-details.html">{{ __('messages.xray_systems') }}</a></h4>
+							<p>{{ __('messages.xray_systems_desc') }}</p>
 						</div>
 						<!-- End Single Service -->
 					</div>
@@ -393,8 +393,8 @@
 						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="fa fa-heartbeat"></i>
-							<h4><a href="service-details.html">Ultrason Sistemleri</a></h4>
-							<p>Yüksek performanslı ultrason cihazlarımız ile hassas ve net görüntüleme imkanı sunuyoruz.</p>
+							<h4><a href="service-details.html">{{ __('messages.ultrasound_systems') }}</a></h4>
+							<p>{{ __('messages.ultrasound_systems_desc') }}</p>
 						</div>
 						<!-- End Single Service -->
 					</div>
@@ -402,8 +402,8 @@
 						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="icofont icofont-bone"></i>
-							<h4><a href="service-details.html">Kemik Dansitometre</a></h4>
-							<p>Kemik mineral yoğunluğu ölçümü için güvenilir ve hassas sonuçlar veren sistemler.</p>
+							<h4><a href="service-details.html">{{ __('messages.bone_densitometer') }}</a></h4>
+							<p>{{ __('messages.bone_densitometer_desc') }}</p>
 						</div>
 						<!-- End Single Service -->
 					</div>
@@ -411,8 +411,8 @@
 						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="icofont icofont-tooth"></i>
-							<h4><a href="service-details.html">Dental Görüntüleme</a></h4>
-							<p>Diş hekimliği için özel tasarlanmış panoramik ve periapikal röntgen sistemleri.</p>
+							<h4><a href="service-details.html">{{ __('messages.dental_imaging') }}</a></h4>
+							<p>{{ __('messages.dental_imaging_desc') }}</p>
 						</div>
 						<!-- End Single Service -->
 					</div>
@@ -420,8 +420,8 @@
 						<!-- Start Single Service -->
 						<div class="single-service">
 							<i class="icofont icofont-tools"></i>
-							<h4><a href="service-details.html">Teknik Servis</a></h4>
-							<p>Tüm cihazlarımız için profesyonel bakım, onarım ve kalibrasyon hizmetleri sunuyoruz.</p>
+							<h4><a href="service-details.html">{{ __('messages.technical_service') }}</a></h4>
+							<p>{{ __('messages.technical_service_desc') }}</p>
 						</div>
 						<!-- End Single Service -->
 					</div>
@@ -436,9 +436,9 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title">
-							<h2>Tıbbi Görüntüleme Dünyasından Son Gelişmeler</h2>
+							<h2>{{ __('messages.latest_news') }}</h2>
 							<img src="{{ asset('img/section-img.png') }}" alt="#">
-							<p>Sağlık teknolojileri ve görüntüleme sistemleri hakkında güncel haberler</p>
+							<p>{{ __('messages.latest_news_subtitle') }}</p>
 						</div>
 					</div>
 				</div>
@@ -451,9 +451,9 @@
 							</div>
 							<div class="news-body">
 								<div class="news-content">
-									<div class="date">15 Ocak, 2024</div>
-									<h2><a href="blog-single.html">Yapay Zeka Destekli MR Görüntüleme: Yeni Nesil Teşhis</a></h2>
-									<p class="text">Modern MR sistemlerinde yapay zeka teknolojisinin kullanımı, teşhis sürecini nasıl hızlandırıyor ve doğruluk oranını nasıl artırıyor? Detaylı incelememiz ile keşfedin.</p>
+									<div class="date">{{ __('messages.blog_date_1') }}</div>
+									<h2><a href="blog-single.html">{{ __('messages.blog_title_1') }}</a></h2>
+									<p class="text">{{ __('messages.blog_desc_1') }}</p>
 								</div>
 							</div>
 						</div>
@@ -467,9 +467,9 @@
 							</div>
 							<div class="news-body">
 								<div class="news-content">
-									<div class="date">10 Ocak, 2024</div>
-									<h2><a href="blog-single.html">Dijital Röntgen Sistemlerinin Avantajları</a></h2>
-									<p class="text">Geleneksel röntgen sistemlerinden dijital sistemlere geçişin hasta ve hekim açısından sağladığı faydalar, maliyet analizi ve çevresel etkileri ele alıyoruz.</p>
+									<div class="date">{{ __('messages.blog_date_2') }}</div>
+									<h2><a href="blog-single.html">{{ __('messages.blog_title_2') }}</a></h2>
+									<p class="text">{{ __('messages.blog_desc_2') }}</p>
 								</div>
 							</div>
 						</div>
@@ -483,9 +483,9 @@
 							</div>
 							<div class="news-body">
 								<div class="news-content">
-									<div class="date">5 Ocak, 2024</div>
-									<h2><a href="blog-single.html">4D Ultrason Teknolojisindeki Son Yenilikler</a></h2>
-									<p class="text">Modern 4D ultrason cihazlarının sunduğu yüksek çözünürlüklü görüntüleme teknolojisi ve klinik uygulamalardaki başarılı sonuçları inceliyoruz.</p>
+									<div class="date">{{ __('messages.blog_date_3') }}</div>
+									<h2><a href="blog-single.html">{{ __('messages.blog_title_3') }}</a></h2>
+									<p class="text">{{ __('messages.blog_desc_3') }}</p>
 								</div>
 							</div>
 						</div>
