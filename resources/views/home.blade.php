@@ -338,7 +338,7 @@
 							</div>
 							<div class="single-clients">
 								<div style="height: 200px; display: flex; align-items: center; justify-content: center;">
-									<img src="{{ asset('img/mindways-logo.png') }}" alt="#" style="max-height: 180px; width: auto; object-fit: contain;">
+									<img src="{{ asset('img/mindways-logo.png') }}" alt="#" style="max-height: 190px; width: auto; object-fit: contain;">
 								</div>
 							</div>
 							<div class="single-clients">
