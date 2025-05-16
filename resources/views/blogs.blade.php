@@ -20,15 +20,6 @@
 <section class="blog section" id="blog">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2>İntermedMS Blog</h2>
-                    <img src="{{ asset('img/section-img.png') }}" alt="#">
-                    <p>Sağlık teknolojileri ve görüntüleme sistemleri hakkında güncel haberler ve makaleler</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
             <!-- Blog 1 -->
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="single-news">
