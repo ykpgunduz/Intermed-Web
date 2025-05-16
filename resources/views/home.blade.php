@@ -327,19 +327,29 @@
 					<div class="col-lg-12 col-md-12 col-12">
 						<div class="owl-carousel clients-slider">
 							<div class="single-clients">
-								<img src="{{ asset('img/anke-logo.png') }}" alt="#" style="margin: 0 auto; transform: scale(0.8);">
+								<div style="height: 200px; display: flex; align-items: center; justify-content: center;">
+									<img src="{{ asset('img/anke-logo.png') }}" alt="#" style="max-height: 100px; width: auto; object-fit: contain;">
+								</div>
 							</div>
 							<div class="single-clients">
-								<img src="{{ asset('img/radiologia-logo.png') }}" alt="#" style="margin: 0 auto;">
+								<div style="height: 200px; display: flex; align-items: center; justify-content: center;">
+									<img src="{{ asset('img/radiologia-logo.png') }}" alt="#" style="max-height: 150px; width: auto; object-fit: contain;">
+								</div>
 							</div>
 							<div class="single-clients">
-								<img src="{{ asset('img/mindways-logo.png') }}" alt="#" style="transform: scale(1.5); margin: 0 auto;">
+								<div style="height: 200px; display: flex; align-items: center; justify-content: center;">
+									<img src="{{ asset('img/mindways-logo.png') }}" alt="#" style="max-height: 180px; width: auto; object-fit: contain;">
+								</div>
 							</div>
 							<div class="single-clients">
-								<img src="{{ asset('img/us-xray-logo.png') }}" alt="#" style="transform: scale(1.5); margin: 0 auto;">
+								<div style="height: 200px; display: flex; align-items: center; justify-content: center;">
+									<img src="{{ asset('img/us-xray-logo.png') }}" alt="#" style="max-height: 180px; width: auto; object-fit: contain;">
+								</div>
 							</div>
 							<div class="single-clients">
-								<img src="{{ asset('img/intermed-logo.png') }}" alt="#" style="transform: scale(0.8); margin: 0 auto;">
+								<div style="height: 200px; display: flex; align-items: center; justify-content: center;">
+									<img src="{{ asset('img/intermed-logo.png') }}" alt="#" style="max-height: 100px; width: auto; object-fit: contain;">
+								</div>
 							</div>
 						</div>
 					</div>
