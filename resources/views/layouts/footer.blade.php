@@ -10,11 +10,11 @@
                         <p>İntermed Medikal Sistemleri olarak, sağlık sektöründeki 10 yıllık tecrübemiz ve deneyimli ekibimizle sizlere daha iyi hizmet sunmak için çalışıyoruz.</p>
                         <!-- Social -->
                         <ul class="social">
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="https://www.instagram.com/intermedms?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/intermedms/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/intermed-medical-systems/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://x.com/intermedms" target="_blank"><i class="fa fa-x-twitter"></i></a></li>
+                            <li><a href="mailto:info@intermedms.com"><i class="fa fa-envelope"></i></a></li>
                         </ul>
                         <!-- End Social -->
                     </div>
@@ -25,18 +25,18 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-12">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Anasayfa</a></li>
-                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Hakkımızda</a></li>
-                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Hizmetler</a></li>
-                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Ürünler</a></li>
-                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>İletişim</a></li>
+                                    <li><a href="/"><i class="fa fa-caret-right" aria-hidden="true"></i>Anasayfa</a></li>
+                                    <li><a href="/about"><i class="fa fa-caret-right" aria-hidden="true"></i>Hakkımızda</a></li>
+                                    <li><a href="/services"><i class="fa fa-caret-right" aria-hidden="true"></i>Servisler</a></li>
+                                    <li><a href="/products"><i class="fa fa-caret-right" aria-hidden="true"></i>Ürünler</a></li>
+                                    <li><a href="/contact"><i class="fa fa-caret-right" aria-hidden="true"></i>İletişim</a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <ul>
                                     <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Danışmanlık</a></li>
                                     <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Memnuniyet</a></li>
-                                    <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Fiyat Politikası</a></li>
+                                    <li><a href="/blogs"><i class="fa fa-caret-right" aria-hidden="true"></i>Blogs</a></li>
                                     <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>SSS</a></li>
                                     <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>KVKK</a></li>
                                 </ul>
@@ -49,7 +49,7 @@
                         <h2>Çalışma Saatleri</h2>
                         <p>Sağlık cihazları hizmetimizi en iyi şekilde sunabilmek için hafta içi her gün hizmetinizdeyiz. Acil durumlar için iletişime geçebilirsiniz.</p>
                         <ul class="time-sidual">
-                            <li class="day">Pazartesi - Cuma <span>08:00 - 20:00</span></li>
+                            <li class="day">Pazartesi - Cuma <span>09:00 - 18:00</span></li>
                             <li class="day">Cumartesi - Pazar <span>Kapalı</span></li>
                         </ul>
                     </div>

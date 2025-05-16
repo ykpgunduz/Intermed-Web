@@ -7,10 +7,10 @@
                 <div class="col-lg-6 col-md-5 col-12">
                     <!-- Social Media Links -->
                     <ul class="top-link" style="margin-left: 10px;">
-                        <li><a href="https://www.instagram.com/intermedms?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-lg fa-instagram"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/intermed-medical-systems/"><i class="fa-brands fa-lg fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-lg fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-lg fa-x-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/intermedms?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-lg fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/intermed-medical-systems/" target="_blank"><i class="fa-brands fa-lg fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/intermedms/" target="_blank"><i class="fa-brands fa-lg fa-facebook-f"></i></a></li>
+                        <li><a href="https://x.com/intermedms" target="_blank"><i class="fa-brands fa-lg fa-x-twitter"></i></a></li>
                     </ul>
                     <!-- End Social Media Links -->
                 </div>

@@ -4,7 +4,7 @@
 
 @section('content')
 <!-- Breadcrumbs -->
-<div class="breadcrumbs overlay" style="background-image: url('{{ asset('img/contact-breadcrumb.jpg') }}'); background-size: cover; background-position: center;">
+<div class="breadcrumbs overlay" style="background-image: url('{{ asset('img/contact-bg.jpg') }}'); background-size: cover; background-position: center;">
     <div class="container">
         <div class="bread-inner">
             <div class="row">
@@ -17,22 +17,6 @@
     </div>
 </div>
 <!-- End Breadcrumbs -->
-
-<!-- Başlık Bölümü Başlangıç -->
-<section class="page-title">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2>İletişim Bilgilerimiz</h2>
-                    <img src="{{ asset('img/section-img.png') }}" alt="#">
-                    <p>Medikal görüntüleme cihazlarımız hakkında daha fazla bilgi almak için bizimle iletişime geçebilirsiniz</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Başlık Bölümü Sonu -->
 
 <!-- İletişim Bilgileri ve Harita Bölümü Başlangıç -->
 <section class="appointment">
@@ -47,7 +31,8 @@
                         <div class="content">
                             <h4>Telefon</h4>
                             <div class="info-links">
-                                <a href="tel:+902121234567">+90 (212) 123 45 67</a>
+                                <a href="tel:+994502632084">+994 50 263 20 84</a>
+                                <a href="tel:+994502352686">+994 50 235 26 86</a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +43,7 @@
                         <div class="content">
                             <h4>E-posta</h4>
                             <div class="info-links">
-                                <a href="mailto:info@medikalcihazlar.com">info@medikalcihazlar.com</a>
+                                <a href="mailto:info@intermedms.com">info@intermedms.com</a>
                             </div>
                         </div>
                     </div>
@@ -69,8 +54,8 @@
                         <div class="content">
                             <h4>Adres</h4>
                             <div class="info-text">
-                                <p>Merkez Ofis: Atatürk Caddesi No:123</p>
-                                <p>Şişli / İstanbul</p>
+                                <p>Bakı Şehri, Sabunçu Rayonu, Bakıxanov Semti, Ruhulla Axundov Caddesi No: 93</p>
+                                <p>Bakü / Azərbaycan</p>
                             </div>
                         </div>
                     </div>
@@ -82,7 +67,7 @@
                             <h4>Çalışma Saatleri</h4>
                             <div class="info-text">
                                 <p>Pazartesi - Cuma: 09:00 - 18:00</p>
-                                <p>Cumartesi: 09:00 - 14:00</p>
+                                <p>Cumartesi - Pazar: Kapalı</p>
                             </div>
                         </div>
                     </div>
@@ -90,13 +75,7 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="map-wrapper">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.9633698339278!2d28.987157315414614!3d41.03700297929863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7650656bd63%3A0x8ca058b28c20b6c3!2zVGFrc2ltIE1leWRhbsSxLCBHw7xtw7zFn3N1eXUsIDM0NDM1IEJleW_En2x1L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1647881234567!5m2!1str!2str"
-                            width="100%"
-                            height="450"
-                            style="border:0;"
-                            allowfullscreen=""
-                            loading="lazy">
-                    </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48596.3627422835!2d49.873246365696325!3d40.42496073933029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030623a1e06d9ed%3A0xd97657279cc3c71a!2sBakikhanov%2C%20Bak%C3%BC%2C%20Azerbaycan!5e0!3m2!1str!2str!4v1747406815084!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

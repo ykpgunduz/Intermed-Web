@@ -253,8 +253,8 @@
 							<h2>Tıbbi Cihaza mı İhtiyacınız Var?<br>Bizi Arayın<br>+994 50 235 26 86</h2>
 							<p>Tıbbi cihaz ihtiyaçlarınız için 7/24 yanınızdayız. Uzman ekibimiz size en uygun çözümü sunmak için hazır.</p>
 							<div class="button">
-								<a href="#" class="btn">Hemen İletişime Geçin</a>
-								<a href="#" class="btn second">Daha Fazla Bilgi<i class="fa fa-long-arrow-right"></i></a>
+								<a href="tel:+994502352686" class="btn">Hemen İletişime Geçin</a>
+								<a href="/contact" class="btn second">Daha Fazla Bilgi<i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
