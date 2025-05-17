@@ -728,12 +728,6 @@
 @endsection
 
 <style>
-.owl-prev, .owl-next{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-}
-
 @media only screen and (max-width: 767px) {
     .desktop-slider {
         display: none !important;
@@ -795,4 +789,11 @@
         height: auto !important;
     }
 }
+
+.social li a{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 </style>

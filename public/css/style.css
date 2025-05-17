@@ -631,6 +631,9 @@ body{
 	margin:0;
 	margin-right:10px;
 }
+.fa.fa-angle-left, .fa.fa-angle-right{
+	margin-top: 10px;
+}
 .slider .single-slider .btn:last-child{
 	margin:0;
 }
@@ -4336,6 +4339,10 @@ body{
 
     .contact-info-item {
         padding: 15px;
+    }
+
+    .fa.fa-angle-left, .fa.fa-angle-right{
+        margin-top: 5px;
     }
 
     .icon-box {
