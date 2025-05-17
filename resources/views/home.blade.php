@@ -3,9 +3,10 @@
 @section('content')
 		<!-- Slider Area -->
 		<section class="slider">
-			<div class="hero-slider">
+			<!-- Desktop Slider -->
+			<div class="hero-slider desktop-slider">
 				<!-- Slider 1 -->
-				<div class="single-slider" style="background: #fff url({{ asset('img/banner-1.jpeg') }}) no-repeat bottom; background-size: contain;">
+				<div class="single-slider desktop-slider" style="background: #fff url({{ asset('img/banner-1.jpeg') }}) no-repeat bottom; background-size: contain;">
 					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-lg-7 text-center" style="margin-top: -50px;">
@@ -19,7 +20,7 @@
 				</div>
 
 				<!-- Slider 2 -->
-				<div class="single-slider" style="background: #e5e5e5 url({{ asset('img/banner-2.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider desktop-slider" style="background: #e5e5e5 url({{ asset('img/banner-2.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -37,7 +38,7 @@
 				</div>
 
 				<!-- Slider 3 -->
-				<div class="single-slider" style="background: #efeff1 url({{ asset('img/banner-3.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider desktop-slider" style="background: #efeff1 url({{ asset('img/banner-3.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -55,7 +56,7 @@
 				</div>
 
 				<!-- Slider 4 -->
-				<div class="single-slider" style="background: #fff url({{ asset('img/banner-4.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider desktop-slider" style="background: #fff url({{ asset('img/banner-4.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -63,7 +64,7 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);"><span>İntermed</span> Permanent<br>MRI System For Veterinary</h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">A specific veterinary MRI solution The 6th Generation of ANKE permanent MRI system</p>
 									<div class="button">
-                                        <a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
 										<a href="#" class="btn primary">{{ __('messages.mri_series') }}</a>
 									</div>
 								</div>
@@ -73,7 +74,7 @@
 				</div>
 
 				<!-- Slider 5 -->
-				<div class="single-slider" style="background: #e5e5e5 url({{ asset('img/banner-5.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider desktop-slider" style="background: #e5e5e5 url({{ asset('img/banner-5.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -91,7 +92,7 @@
 				</div>
 
 				<!-- Slider 6 -->
-				<div class="single-slider" style="background: #e5e5e5 url({{ asset('img/banner-6.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider desktop-slider" style="background: #e5e5e5 url({{ asset('img/banner-6.jpeg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -109,7 +110,7 @@
 				</div>
 
 				<!-- Slider 7 -->
-				<div class="single-slider" style="background: #fff url({{ asset('img/banner-7.jpg') }}) no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider desktop-slider" style="background: #fff url({{ asset('img/banner-7.jpg') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -117,7 +118,7 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Fluoroscopy Devices</h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Fully Automatic Versatile Digital Fluoroscopy System</p>
 									<div class="button">
-                                        <a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
 										<a href="#" class="btn primary">{{ __('messages.fluoroscopy_series') }}</a>
 									</div>
 								</div>
@@ -127,7 +128,7 @@
 				</div>
 
 				<!-- Slider 8 -->
-				<div class="single-slider" style="background: #efeff1 url({{ asset('img/banner-8.png') }}) no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider desktop-slider" style="background: #efeff1 url({{ asset('img/banner-8.png') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -145,7 +146,7 @@
 				</div>
 
 				<!-- Slider 9 -->
-				<div class="single-slider" style="background: #efeff1 url({{ asset('img/banner-9.png') }}) no-repeat right 150px bottom; background-size: contain;">
+				<div class="single-slider desktop-slider" style="background: #efeff1 url({{ asset('img/banner-9.png') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -162,8 +163,8 @@
 					</div>
 				</div>
 
-                <!-- Slider 10 -->
-				<div class="single-slider" style="background: #fff url({{ asset('img/banner-10.png') }}) no-repeat right 150px bottom; background-size: contain;">
+				<!-- Slider 10 -->
+				<div class="single-slider desktop-slider" style="background: #fff url({{ asset('img/banner-10.png') }}) no-repeat right 150px bottom; background-size: contain;">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7">
@@ -171,6 +172,235 @@
 									<h1 style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Digital DXA. Radioscore-DR<br><span>Densitometry</span></h1>
 									<p style="color: #333; text-shadow: 1px 1px 2px rgba(255,255,255,0.3);">Digital densitometer with control software<br>for accurate diagnosis of total and local bone density.</p>
 									<div class="button">
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.densitometry_series') }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Mobile Slider -->
+			<div class="hero-slider mobile-slider" style="display: none;">
+				<!-- Mobile Slider 1 -->
+				<div class="single-slider" style="background: #ffffff;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;"><span>Sağlık Sektörünün</span> <span>Güvenilir</span><br><span>Çözüm Ortağı</span></h1>
+										<p style="color: #333;">Yılları aşkın deneyimimizle, son teknoloji medikal cihazlar ve üstün kalite standartlarıyla sağlık sektörüne öncülük ediyoruz. İntermed ile geleceğin sağlık teknolojileri yanınızda.</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-1.jpeg') }}" alt="slider image">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Slider 2 -->
+				<div class="single-slider" style="background: #cacaca;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;"><span>İntermed</span> Superconducting<br>MRI System</h1>
+										<p style="color: #333;">A reborn and empowered wide bore 1.5T MRI System</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-2.jpeg') }}" alt="slider image">
+									</div>
+									<div class="button text-center">
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.mri_series') }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Slider 3 -->
+				<div class="single-slider" style="background: #e0e0e0;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;"><span>İntermed</span> Permanent<br>MRI System</h1>
+										<p style="color: #333;">New generation midfield MRI system Industrial leading technology</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-3.jpeg') }}" alt="slider image">
+									</div>
+									<div class="button text-center">
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.mri_series') }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Slider 4 -->
+				<div class="single-slider" style="background: #ffffff;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;"><span>İntermed</span> Permanent<br>MRI System For Veterinary</h1>
+										<p style="color: #333;">A specific veterinary MRI solution The 6th Generation of ANKE permanent MRI system</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-4.jpeg') }}" alt="slider image">
+									</div>
+									<div class="button text-center">
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.mri_series') }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Slider 5 -->
+				<div class="single-slider" style="background: #cacaca;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;"><span>İntermed</span> CT Series</h1>
+										<p style="color: #333;">Cutting-Edge 128-Slice CT Scanner</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-5.jpeg') }}" alt="slider image">
+									</div>
+									<div class="button text-center">
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.ct_series') }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Slider 6 -->
+				<div class="single-slider" style="background: #cacaca;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;"><span>İntermed</span> CT Series</h1>
+										<p style="color: #333;">Cutting-Edge 256-Slice CT Scanner</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-6.jpeg') }}" alt="slider image">
+									</div>
+									<div class="button text-center">
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.ct_series') }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Slider 7 -->
+				<div class="single-slider" style="background: #ffffff;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;">Fluoroscopy Devices</h1>
+										<p style="color: #333;">Fully Automatic Versatile Digital Fluoroscopy System</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-7.jpg') }}" alt="slider image">
+									</div>
+									<div class="button text-center">
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.fluoroscopy_series') }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Slider 8 -->
+				<div class="single-slider" style="background: #f8f8f8;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;">Mammography Devices<br><span>Femina Digital</span></h1>
+										<p style="color: #333;">Digital Mammography Device Impact With An Early Diagnosis</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-8.png') }}" alt="slider image">
+									</div>
+									<div class="button text-center">
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.mammography_series') }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Slider 9 -->
+				<div class="single-slider" style="background: #f5f5f5;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;">Polyrad Premium Csx<br><span>Radiography</span></h1>
+										<p style="color: #333;">Full Automatic Multi Purpose Double Detector X-Ray System</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-9.png') }}" alt="slider image">
+									</div>
+									<div class="button text-center">
+										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
+										<a href="#" class="btn primary">{{ __('messages.xray_series') }}</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Mobile Slider 10 -->
+				<div class="single-slider" style="background: #ffffff;">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="mobile-slider-content">
+									<div class="text text-center">
+										<h1 style="color: #333;">Digital DXA. Radioscore-DR<br><span>Densitometry</span></h1>
+										<p style="color: #333;">Digital densitometer with control software<br>for accurate diagnosis of total and local bone density.</p>
+									</div>
+									<div class="slider-image">
+										<img src="{{ asset('img/banner-10.png') }}" alt="slider image">
+									</div>
+									<div class="button text-center">
 										<a href="#" class="btn">{{ __('messages.view_product') }}</a>
 										<a href="#" class="btn primary">{{ __('messages.densitometry_series') }}</a>
 									</div>
@@ -496,3 +726,73 @@
 		</section>
 		<!-- End Blog Area -->
 @endsection
+
+<style>
+.owl-prev, .owl-next{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop-slider {
+        display: none !important;
+    }
+
+    .mobile-slider {
+        display: block !important;
+    }
+
+    .mobile-slider-content {
+        padding: 20px 0;
+    }
+
+    .mobile-slider-content .text {
+        margin-bottom: 20px;
+    }
+
+    .mobile-slider-content .text h1 {
+        font-size: 24px;
+        line-height: 1.4;
+        margin-bottom: 8px;
+    }
+
+    .mobile-slider-content .text p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .mobile-slider-content .slider-image {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .mobile-slider-content .slider-image img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        max-height: 300px;
+    }
+
+    .mobile-slider-content .button {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .mobile-slider-content .button .btn {
+        margin: 0;
+        padding: 10px 20px;
+        flex: 0 1 auto;
+        height: 45px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+    }
+
+    .single-slider {
+        height: auto !important;
+    }
+}
+</style>
