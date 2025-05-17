@@ -165,7 +165,7 @@ Version:	1.1
 		$('.clients-slider').owlCarousel({
 			items:5,
 			autoplay:true,
-			autoplayTimeout:3500,
+			autoplayTimeout: 1000,
 			margin:15,
 			smartSpeed: 400,
 			autoplayHoverPause:true,

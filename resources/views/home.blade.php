@@ -796,4 +796,10 @@
     align-items: center !important;
 }
 
+#scrollUp{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 </style>
