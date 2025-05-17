@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'İletişim')
+@section('title', __('messages.contact'))
 
 @section('content')
 <!-- Breadcrumbs -->
@@ -9,8 +9,8 @@
         <div class="bread-inner">
             <div class="row">
                 <div class="col-12">
-                    <h2 style="color: #fff;">İletişim</h2>
-                    <p style="color: #fff; margin: 20px auto 0; max-width: 800px;">Medikal görüntüleme sistemleri ve teknik servis hizmetlerimiz hakkında bilgi almak için bizimle iletişime geçin. Uzman ekibimiz size yardımcı olmaktan mutluluk duyacaktır.</p>
+                    <h2 style="color: #fff;">{{ __('messages.contact') }}</h2>
+                    <p style="color: #fff; margin: 20px auto 0; max-width: 800px;">{{ __('messages.contact_page_desc') }}</p>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
                             <i class="fa fa-phone"></i>
                         </div>
                         <div class="content">
-                            <h4>Telefon</h4>
+                            <h4>{{ __('messages.phone') }}</h4>
                             <div class="info-links">
                                 <a href="tel:+994502632084">+994 50 263 20 84</a>
                                 <a href="tel:+994502352686">+994 50 235 26 86</a>
@@ -41,7 +41,7 @@
                             <i class="fa fa-envelope"></i>
                         </div>
                         <div class="content">
-                            <h4>E-posta</h4>
+                            <h4>{{ __('messages.email') }}</h4>
                             <div class="info-links">
                                 <a href="mailto:info@intermedms.com">info@intermedms.com</a>
                             </div>
@@ -52,10 +52,10 @@
                             <i class="fa fa-map-marker"></i>
                         </div>
                         <div class="content">
-                            <h4>Adres</h4>
+                            <h4>{{ __('messages.address') }}</h4>
                             <div class="info-text">
                                 <p>Bakı Şehri, Sabunçu Rayonu, Bakıxanov Semti, Ruhulla Axundov Caddesi No: 93</p>
-                                <p>Bakü / Azərbaycan</p>
+                                <p>Bakü / {{ __('messages.azerbaijan') }}</p>
                             </div>
                         </div>
                     </div>
@@ -64,10 +64,10 @@
                             <i class="fa fa-clock-o"></i>
                         </div>
                         <div class="content">
-                            <h4>Çalışma Saatleri</h4>
+                            <h4>{{ __('messages.working_hours_title') }}</h4>
                             <div class="info-text">
-                                <p>Pazartesi - Cuma: 09:00 - 18:00</p>
-                                <p>Cumartesi - Pazar: Kapalı</p>
+                                <p>{{ __('messages.monday_friday') }}: 09:00 - 18:00</p>
+                                <p>{{ __('messages.saturday_sunday') }}: {{ __('messages.closed') }}</p>
                             </div>
                         </div>
                     </div>
@@ -89,9 +89,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h2>Bize Ulaşın</h2>
+                    <h2>{{ __('messages.contact_us') }}</h2>
                     <img src="{{ asset('img/section-img.png') }}" alt="#">
-                    <p>Medikal görüntüleme cihazlarımız hakkında detaylı bilgi almak için aşağıdaki formu doldurup bize gönderebilirsiniz</p>
+                    <p>{{ __('messages.contact_form_desc') }}</p>
                 </div>
             </div>
         </div>
@@ -101,37 +101,37 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-group">
-                                <input name="name" type="text" placeholder="Adınız Soyadınız" required>
+                                <input name="name" type="text" placeholder="{{ __('messages.full_name') }}" required>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-group">
-                                <input name="email" type="email" placeholder="E-posta Adresiniz" required>
+                                <input name="email" type="email" placeholder="{{ __('messages.your_email') }}" required>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-group">
-                                <input name="phone" type="tel" placeholder="Telefon Numaranız" required>
+                                <input name="phone" type="tel" placeholder="{{ __('messages.your_phone') }}" required>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="form-group">
                                 <div class="nice-select form-control wide" tabindex="0">
-                                    <span class="current">İlgilendiğiniz Cihaz</span>
+                                    <span class="current">{{ __('messages.device_interest') }}</span>
                                     <ul class="list">
-                                        <li data-value="1" class="option selected">İlgilendiğiniz Cihaz</li>
-                                        <li data-value="2" class="option">MR Cihazları</li>
-                                        <li data-value="3" class="option">Tomografi Cihazları</li>
-                                        <li data-value="4" class="option">Ultrason Cihazları</li>
-                                        <li data-value="5" class="option">Röntgen Cihazları</li>
-                                        <li data-value="6" class="option">Mamografi Cihazları</li>
+                                        <li data-value="1" class="option selected">{{ __('messages.device_interest') }}</li>
+                                        <li data-value="2" class="option">{{ __('messages.mr_devices') }}</li>
+                                        <li data-value="3" class="option">{{ __('messages.xray_devices') }}</li>
+                                        <li data-value="4" class="option">{{ __('messages.ultrasound_devices') }}</li>
+                                        <li data-value="5" class="option">{{ __('messages.xray_devices') }}</li>
+                                        <li data-value="6" class="option">{{ __('messages.mammography_series') }}</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12 col-12">
                             <div class="form-group">
-                                <textarea name="message" placeholder="Mesajınızı buraya yazın....." required></textarea>
+                                <textarea name="message" placeholder="{{ __('messages.message') }}" required></textarea>
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                         <div class="col-lg-5 col-md-4 col-12">
                             <div class="form-group">
                                 <div class="button">
-                                    <button type="submit" class="btn">Gönder</button>
+                                    <button type="submit" class="btn">{{ __('messages.send') }}</button>
                                 </div>
                             </div>
                         </div>
@@ -157,16 +157,16 @@
         <div class="row">
             <div class="col-lg-6 col-12">
                 <div class="subscribe-text">
-                    <h6>Bültenimize Kayıt Olun</h6>
-                    <p>Yeni ürünler ve kampanyalardan haberdar olmak için<br> bültenimize abone olun.</p>
+                    <h6>{{ __('messages.newsletter_signup') }}</h6>
+                    <p>{{ __('messages.newsletter_desc') }}</p>
                 </div>
             </div>
             <div class="col-lg-6 col-12">
                 <div class="subscribe-form">
                     <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-                        <input name="EMAIL" placeholder="E-posta adresiniz" class="common-input" onfocus="this.placeholder = ''"
-                            onblur="this.placeholder = 'E-posta adresiniz'" required="" type="email">
-                        <button class="btn">Abone Ol</button>
+                        <input name="EMAIL" placeholder="{{ __('messages.email_placeholder') }}" class="common-input" onfocus="this.placeholder = ''"
+                            onblur="this.placeholder = '{{ __('messages.email_placeholder') }}'" required="" type="email">
+                        <button class="btn">{{ __('messages.subscribe') }}</button>
                     </form>
                 </div>
             </div>
