@@ -37,6 +37,7 @@
                             <a href="/"><img src="{{ asset('img/logo.png') }}" alt="#"></a>
                         </div>
                         <!-- End Logo -->
+
                         <!-- Mobile Nav -->
                         <div class="mobile-nav"></div>
                         <!-- End Mobile Nav -->
@@ -79,8 +80,8 @@
                         </div>
                         <!--/ End Main Menu -->
                     </div>
-                    <div class="col-lg-2 col-12 mt-2">
-                        <div class="language-selector">
+                    <div class="col-lg-2 col-12">
+                        <div class="language-selector d-none d-md-block">
                             <div class="dropdown">
                                 <button class="btn dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     {{ strtoupper(app()->getLocale()) }}
@@ -100,3 +101,128 @@
     <!--/ End Header Inner -->
 </header>
 <!-- End Header Area -->
+
+<!-- Fixed Mobile Language Selector -->
+<div class="mobile-language-fixed d-md-none">
+    <div class="dropdown dropup">
+        <button class="btn dropdown-toggle" type="button" id="mobileLanguageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ strtoupper(app()->getLocale()) }}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="mobileLanguageDropdown">
+            <a class="dropdown-item" href="{{ route('language.switch', 'tr') }}">Türkçe</a>
+            <a class="dropdown-item" href="{{ route('language.switch', 'az') }}">Azərbaycan</a>
+            <a class="dropdown-item" href="{{ route('language.switch', 'en') }}">English</a>
+        </div>
+    </div>
+</div>
+
+<style>
+@media only screen and (max-width: 767px) {
+    .header .header-inner .col-lg-3 {
+        position: relative;
+    }
+
+    .header .header-inner .logo {
+        max-width: 150px;
+    }
+
+    .header .header-inner .logo img {
+        max-height: 40px;
+    }
+
+    .mobile-language-fixed {
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        z-index: 999;
+    }
+
+    .mobile-language-fixed .dropdown-toggle {
+        padding: 6px 12px;
+        font-size: 14px;
+        background-color: #1A76D1;
+        border: none;
+        color: white;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        border-radius: 30px;
+        min-width: 60px;
+        text-align: center;
+    }
+
+    .mobile-language-fixed .dropdown-toggle:focus,
+    .mobile-language-fixed .dropdown-toggle:hover {
+        background-color: #0c62b9;
+    }
+
+    .mobile-language-fixed .dropdown-menu {
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        margin-top: -10px;
+        margin-bottom: 0;
+        min-width: 120px;
+        left: 0 !important;
+        bottom: 100%;
+        top: auto !important;
+        transform: none !important;
+    }
+
+    .mobile-language-fixed .dropdown-item {
+        text-align: center;
+        padding: 8px;
+    }
+
+    .mobile-language-fixed .dropdown-item:hover {
+        background-color: #f8f9fa;
+    }
+}
+
+/* Masaüstü dil seçici stili */
+.header-inner .inner .row {
+    align-items: center;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 0;
+}
+
+.language-selector .dropdown-toggle {
+    padding: 6px 15px;
+    font-size: 14px;
+    background-color: #1A76D1;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    min-width: 60px;
+    text-align: center;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.language-selector .dropdown-toggle:hover,
+.language-selector .dropdown-toggle:focus {
+    background-color: #0c62b9;
+}
+
+.language-selector .dropdown-menu {
+    min-width: 120px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-top: 5px;
+}
+
+.language-selector .dropdown-item {
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+.language-selector .dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+</style>
